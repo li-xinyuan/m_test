@@ -11,9 +11,9 @@ public class MySwap {
 	}
 
 	public static void swap(Integer a, Integer b) {
-		Integer temp = new Integer(a);
+		Integer temp = new Integer(a.intValue());
 		b = new Integer(temp);
-		Integer temp2 = new Integer(b);
+		Integer temp2 = new Integer(b.intValue());
 		a = new Integer(temp2);
 	}
 }
